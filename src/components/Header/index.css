@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.header-container {
+  background-color: #cbd5e1;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+@media (min-width: 768px) {
+  .header-container {
+    height: 150px;
+    max-width: 950px;
+  }
+}
+.header-heading {
+  color: #475569;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .footer-heading {
+    font-size: 35px;
+  }
+}

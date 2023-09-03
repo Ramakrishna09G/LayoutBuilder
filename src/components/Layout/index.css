@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.layout-body-container {
+  width: 40%;
+}
+@media (min-width: 768px) {
+  .layout-body-container {
+    max-width: 1180px;
+  }
+}

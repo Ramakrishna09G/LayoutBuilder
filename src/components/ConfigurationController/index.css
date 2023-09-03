@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.configuration-controller {
+  background-color: #475569;
+  height: 180px;
+  width: 60%;
+  margin-top: 5px;
+  padding-left: 25px;
+  align-self: center;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .configuration-controller {
+    max-width: 1180px;
+  }
+}
+.lay-out-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.controller-items {
+  list-style-type: none;
+  padding-left: 12px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.controller-item {
+  margin-top: 10px;
+}
